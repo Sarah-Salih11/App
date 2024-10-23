@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tractor Agricultural Products Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-uppercase d-flex align-items-center" href="#">
+                <img src="images/logo2.jpg" alt="شعار الشركة" width="60" class="d-inline-block align-text-top me-2 rounded-circle shadow">
+                <span class="text-warning fst-italic" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-size: 1.4em; font-style: italic;">Tractor</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" style="font-family: 'Arima', cursive;" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" style="font-family: 'Arima', cursive;" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" style="font-family: 'Arima', cursive;" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" style="font-family: 'Arima', cursive;" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-uppercase" style="font-family: 'Arima', cursive;" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-4 text-warning animate__animated animate__fadeInDown" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-style: italic;">Contact Us</h1>
+            
+            <!-- Formspree Form -->
+            <form action="https://formspree.io/f/xanynjkd" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label">
+                        <i class="fas fa-user"></i> Name
+                    </label>
+                    <input type="text" name="name" class="form-control" style="font-family: 'Arima', cursive;" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">
+                        <i class="fas fa-envelope"></i> Email
+                    </label>
+                    <input type="email" name="email" class="form-control" style="font-family: 'Arima', cursive;" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">
+                        <i class="fas fa-comments"></i> Your Message
+                    </label>
+                    <textarea name="message" class="form-control" style="font-family: 'Arima', cursive;" id="message" rows="4" placeholder="Enter your message here" required></textarea>
+                </div>
+
+                <!-- Honeypot for spam prevention -->
+                <input type="text" name="_gotcha" style="display:none">
+
+                <!-- Success redirection (optional) -->
+                <input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+
+                <button type="submit" class="btn btn-warning animate__animated animate__bounce" style="font-family: 'Arima', cursive;">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h1 class="text-warning" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-style: italic;">Contact Information</h1>
+            <p><strong style="font-family: 'Arima', cursive;">Address:</strong> Sudan , Khartoum</p>
+            <p><strong style="font-family: 'Arima', cursive;">Mobile:</strong> +123 456 789</p>
+            <p><strong style="font-family: 'Arima', cursive;">Email:</strong> info@agri-Tractor.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0" style="font-family: 'Arima', cursive;">Agricultural Equipment Company.<br>All rights reserved &copy; 2024</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS for card hover effect -->
+    <script>
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseover', function() {
+                this.style.transform = 'scale(1.05)';
+            });
+            card.addEventListener('mouseout', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>

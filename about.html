@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Equipment Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .card {
+            height: 100%; 
+            display: flex; 
+            flex-direction: column; 
+        }
+        .card-body {
+            flex-grow: 1; 
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-uppercase d-flex align-items-center" href="#">
+                <img src="images/logo2.jpg" alt="شعار الشركة" width="60" class="d-inline-block align-text-top me-2 rounded-circle shadow">
+                <span class="text-warning fst-italic" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-size: 1.4em; font-style: italic;">Tractor</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" style="font-family: 'Arima', cursive;" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-uppercase" style="font-family: 'Arima', cursive;" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" style="font-family: 'Arima', cursive;" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" style="font-family: 'Arima', cursive;" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" style="font-family: 'Arima', cursive;" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section  -->
+    <section class="d-flex flex-column justify-content-center align-items-center text-white text-center" style="height: 100vh; background-image: url('images/background.jpg'); background-size: cover; background-position: center;">
+        <div class="container py-5">
+            <h4 class="display-4 fw-bold text-warning animate__animated animate__fadeInDown" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-style: italic;">
+                Our company was established over 20 years ago to provide the best agricultural equipment and solutions to support agricultural production in the region.
+            </h4>
+        </div>
+    </section>
+
+    <!-- About Section  -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-4 fw-bold text-warning" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-style: italic;">About Company</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card border-warning shadow-sm animate__animated animate__fadeInLeft" style="opacity: 0;">
+                        <div class="card-body">
+                            <h1 class="card-title text-warning" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-style: italic;">Our Vision :</h1>
+                            <p class="card-text" style="font-family: 'Arima', cursive;">
+                                We aspire to be leaders in the agricultural equipment industry,
+                                committed to providing the latest technologies and innovations to ensure maximum benefit for our customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-warning shadow-sm animate__animated animate__fadeInUp" style="opacity: 0;">
+                        <div class="card-body">
+                            <h1 class="card-title text-warning" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-style: italic;">Our Values :</h1>
+                            <ul class="list-unstyled">
+                                <li class="mb-2" style="font-family: 'Arima', cursive;">
+                                    <i class="bi bi-check-circle-fill text-success"></i> Quality and Innovation
+                                </li>
+                                <li class="mb-2" style="font-family: 'Arima', cursive;">
+                                    <i class="bi bi-check-circle-fill text-success"></i> Customer Commitment
+                                </li>
+                                <li class="mb-2" style="font-family: 'Arima', cursive;">
+                                    <i class="bi bi-check-circle-fill text-success"></i> Sustainability
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-warning shadow-sm animate__animated animate__fadeInRight" style="opacity: 0;">
+                        <div class="card-body">
+                            <h1 class="card-title text-warning" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-style: italic;">Our Products :</h1>
+                            <p class="card-text" style="font-family: 'Arima', cursive;">
+                                We offer a comprehensive range of agricultural equipment: tractors, harvesters,
+                                hand tools, maintenance services, and technical support to ensure that our equipment operates at peak efficiency.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0" style="font-family: 'Arima', cursive;">Agricultural Equipment Company.<br>All rights reserved &copy; 2024</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+
+            cards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = 1;
+                    card.classList.add('animate__fadeIn');
+                }, index * 300); // Delay the animation for each card
+            });
+        });
+    </script>
+</body>
+</html>
